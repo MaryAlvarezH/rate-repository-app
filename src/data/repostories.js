@@ -1,0 +1,61 @@
+export default [
+  {
+    id: "epa-datos.bing",
+    fullName: "epa-datos/bing",
+    description: "Go client to get reports from Bing API",
+    language: "go",
+    forksCount: 0,
+    stargazersCount: 2,
+    ratingAverage: 85,
+    reviewCount: 1557,
+    ownerAvatarUrl:
+      "https://avatars.githubusercontent.com/u/80348162?s=200&v=4",
+  },
+  {
+    id: "epa-datos.ads",
+    fullName: "epa-datos/ads",
+    description: "Go client to get reports from Ads API",
+    language: "go",
+    forksCount: 1,
+    stargazersCount: 2,
+    ratingAverage: 79,
+    reviewCount: 2,
+    ownerAvatarUrl:
+      "https://avatars.githubusercontent.com/u/80348162?s=200&v=4",
+  },
+  {
+    id: "epa-datos.mextractor",
+    fullName: "epa-datos/mextractor",
+    description:
+      "Go API to generate reports for different providers like Analytics, Adwords, Bing, Facebook and TikTok.",
+    language: "go",
+    forksCount: 0,
+    stargazersCount: 1,
+    ratingAverage: 83,
+    reviewCount: 1,
+    ownerAvatarUrl:
+      "https://avatars.githubusercontent.com/u/80348162?s=200&v=4",
+  },
+  {
+    id: "MaryAlvarezH.pokedex",
+    fullName: "MaryAlvarezH/pokedex",
+    description: "Pokedex build with Angular",
+    language: "typescript",
+    forksCount: 0,
+    stargazersCount: 1,
+    ratingAverage: 83,
+    reviewCount: 1,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/38545126?v=4",
+  },
+  {
+    id: "MaryAlvarezH.react-native",
+    fullName: "MaryAlvarezH/react-native",
+    description: "Introduction to React Native concepts",
+    language: "javascript",
+    forksCount: 0,
+    stargazersCount: 1,
+    ratingAverage: 0,
+    reviewCount: 1,
+    ownerAvatarUrl: "https://avatars.githubusercontent.com/u/38545126?v=4",
+  },
+];
