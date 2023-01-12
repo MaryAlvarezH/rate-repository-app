@@ -1,4 +1,8 @@
 export default {
+  appBar: {
+    primary: "#24292e",
+    textPrimary: "#ffffff",
+  },
   colors: {
     textPrimary: "#24292e",
     textSecondary: "#586069",

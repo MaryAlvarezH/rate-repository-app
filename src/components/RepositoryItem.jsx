@@ -3,18 +3,19 @@ import theme from "../theme";
 import RepositoryStats from "./RepositoryStats";
 import StyledText from "./StyledText";
 
-const RepositoryItemHeader = ({ repo }) => {
-  return (
-    <View>
+const RepositoryItemHeader = ({ repo }) => (
+  <View style={{ flexDirection: "row", paddingBottom: 2 }}>
+    <View style={{ paddingRight: 10 }}>
       <Image style={styles.image} source={{ uri: repo.ownerAvatarUrl }} />
-      <StyledText fontSize="subheading" fontWeight="bold">
-        {repo.fullName}
-      </StyledText>
-      <StyledText>{repo.description}</StyledText>
+    </View>
+    <View style={{ flex: 1 }}>
+      <StyledText fontWeight="bold">{repo.fullName}</StyledText>
+      <StyledText color="secondary">{repo.description}</StyledText>
       <StyledText style={styles.language}>{repo.language}</StyledText>
     </View>
-  );
-};
+  </View>
+);
+
 const RepositoryItem = ({ repo }) => {
   return (
     <View key={repo.id} style={styles.container}>
@@ -27,8 +28,7 @@ const RepositoryItem = ({ repo }) => {
 const styles = StyleSheet.create({
   container: {
     padding: 20,
-    paddingBottom: 5,
-    paddingTop: 5,
+    paddingVertical: 5,
   },
   strong: {
     color: "#09f",
@@ -40,6 +40,7 @@ const styles = StyleSheet.create({
     color: theme.colors.white,
     backgroundColor: theme.colors.primary,
     alignSelf: "flex-start",
+    marginVertical: 4,
     borderRadius: 4,
     overflow: "hidden",
   },
